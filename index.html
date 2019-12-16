@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/css.css">
+    <style>
+       
+    
+    </style>
+</head>
+<body>
+    <div class="wrapper center"></div>
+    <br>
+    <div class="demo center"></div>
+    <script src="./src/js/jquery-3.3.1.js"></script>
+    <script src="./src/js/index.js"></script>
+    <script>
+        $('.wrapper').swiper({
+            //图片
+            imgList: ['http://img4.imgtn.bdimg.com/it/u=1379679188,617775086&fm=26&gp=0.jpg', 'http://img3.imgtn.bdimg.com/it/u=2048761274,2444463275&fm=26&gp=0.jpg', 'http://img0.imgtn.bdimg.com/it/u=2946961461,1341282255&fm=26&gp=0.jpg', 'http://img4.imgtn.bdimg.com/it/u=3484948207,365189709&fm=26&gp=0.jpg'],
+            //轮播方式
+            animate: 'animate',
+            //是否展示左右轮播按钮
+            showBtn: false,
+            // 是否自动轮播
+            isAuto: true,
+        }) 
+        $('.demo').swiper({
+            imgList: ['http://img1.imgtn.bdimg.com/it/u=1932194022,3135983609&fm=15&gp=0.jpg', 'http://img3.imgtn.bdimg.com/it/u=469140500,2991670939&fm=26&gp=0.jpg', 'http://img0.imgtn.bdimg.com/it/u=1138935709,3573339285&fm=26&gp=0.jpg', 'http://img1.imgtn.bdimg.com/it/u=2482775401,3234697486&fm=26&gp=0.jpg'],
+            animate: 'fade',
+            showBtn: true,
+            isAuto: true,
+        })
+        
+    </script>
+</body>
+</html>

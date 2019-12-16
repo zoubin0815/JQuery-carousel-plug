@@ -1,0 +1,15 @@
+.wrapper {
+    width: 450px;
+    height: 350px;
+    border: 1px solid #000;
+}
+.demo {
+    width: 450px;
+    height: 350px;
+    border: 1px solid #000;
+}
+.center{
+    position: absolute;
+    top: calc(50% - 125px);
+    left: calc(50% - 225px);
+}
